@@ -1,8 +1,17 @@
-// variable hoisting
+// variable hoisting---------------------------------------
 console.log(hoistingintro);
 var hoistingintro = "Hi i am Mahedi Hasan";
 
-//function hoisting
+//console.log(xx); 
+let xx = 5;
+ 
+console.log(xx); // Uncaught ReferenceError: x is not defined
+const x = 5;
+ 
+console.log(x); // undefined
+//var x = 5;
+
+//function hoisting------------------------------------
 
 fun1();
 function fun1(){
