@@ -12,7 +12,7 @@ let fnVar = function(){
 }
 // function expression with named function
 let fnNamedVar = function name(){
-
+    
 }
 // arrow function
 let arrow = (a, b) => {
